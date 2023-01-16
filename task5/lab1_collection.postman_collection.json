@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "6d8758b6-3a39-461e-be3f-841fcd717e55",
+		"name": "lab1_collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13040943"
+	},
+	"item": [
+		{
+			"name": "lite_requst",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://172.21.0.3:3000",
+					"protocol": "http",
+					"host": [
+						"172",
+						"21",
+						"0",
+						"3"
+					],
+					"port": "3000"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "json_students",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:3000/students",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "3000",
+					"path": [
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "kafedras_request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:3000/kafedras",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "3000",
+					"path": [
+						"kafedras"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

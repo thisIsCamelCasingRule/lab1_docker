@@ -1,0 +1,8 @@
+{
+    "students": [
+        { "id": 1, "name": "Max", "surname": "BoB" }
+    ],
+    "kafedras": [
+        { "id": 1, "name": "Math", "bossId": 1 }
+    ]
+}
